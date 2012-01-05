@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-text-shadow: 1px 1px 3px #888; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+text-shadow: 1px 1px 3px rgba(0, 0, 0, .5); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>text-shadow</tabTrigger>
