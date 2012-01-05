@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transform: rotate(7.5deg);  /* Saf3.1+, Chrome */
+   -moz-transform: rotate(7.5deg);  /* FF3.5+ */
+    -ms-transform: rotate(7.5deg);  /* IE9 */
+     -o-transform: rotate(7.5deg);  /* Opera 10.5 */
+          transform: rotate(7.5deg);
+             filter: progid:DXImageTransform.Microsoft.Matrix(/* IE6–IE9 */
+                     M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104, sizingMethod='auto expand');
+               zoom: 1;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rotate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css, source.scss</scope>
+</snippet>

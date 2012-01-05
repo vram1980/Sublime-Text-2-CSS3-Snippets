@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-box-shadow: 0px 0px 4px #ffffff; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+   -moz-box-shadow: 0px 0px 4px #ffffff; /* FF3.5 - 3.6 */
+        box-shadow: 0px 0px 4px #ffffff; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>box-shadow</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css, source.scss</scope>
+</snippet>
