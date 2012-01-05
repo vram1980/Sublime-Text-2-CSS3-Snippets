@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+/* Select only h1s that contain a 'data-text' attribute */
+h1[data-text] {
+	position: relative;
+        color: red;
+}
+
+h1[data-text]::after {
+	content: attr(data-text);
+	z-index: 2;
+	color: green;
+	position: absolute;
+	left: 0;
+	-webkit-mask-image: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(rgba(0,0,0,1)),
+		color-stop(40%, rgba(0,0,0,0))
+	);
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>text-gradient</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css, source.scss</scope>
+</snippet>
